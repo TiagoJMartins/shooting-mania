@@ -214,7 +214,7 @@ window.onload = function() {
             ctx.fillText('shooting: ' + P1.shooting, 10, 120);
             ctx.fillText('bullets: ' + P1.projectiles.length, 10, 130);
             ctx.fillText('FPS: ' + Math.ceil(1/delta), 10, 140);
-            ctx.fillText('WASD to move.', 10, 170);
+            ctx.fillText('WAD to move.', 10, 170);
             ctx.fillText('Mouse1 to fire.', 10, 180);
 
         }
