@@ -197,7 +197,7 @@ window.onload = function() {
 
     function debugInfo() {
         if (DEBUG) {
-            ctx.rect(2, 5, 120, 175);
+            ctx.rect(2, 5, 120, 185);
             ctx.fillStyle = 'rgba(0, 0, 0, 0.8)';
             ctx.fill();
             ctx.fillStyle = 'white';
@@ -214,6 +214,8 @@ window.onload = function() {
             ctx.fillText('shooting: ' + P1.shooting, 10, 120);
             ctx.fillText('bullets: ' + P1.projectiles.length, 10, 130);
             ctx.fillText('FPS: ' + Math.ceil(1/delta), 10, 140);
+            ctx.fillText('WASD to move.', 10, 170);
+            ctx.fillText('Mouse1 to fire.', 10, 180);
 
         }
     }
